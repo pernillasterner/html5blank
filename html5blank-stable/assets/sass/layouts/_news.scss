@@ -1,0 +1,24 @@
+.news-template-default {
+  div.mm-slideout {
+    .base-sida {
+      #program-single-featured-image {
+        height: auto;
+        min-height: 225px;
+        @media screen and (max-width: 420px) {
+          min-height: auto;
+        }
+        h1 {
+          position: relative;
+          word-wrap: break-word;
+          padding: 15px 15px 50px 15px;
+          margin-top: 50px;
+          transform: inherit;
+          @media screen and (max-width: 420px) {
+            margin-top: 0;
+            padding: 15px;
+          }
+        }
+      }
+    }
+  }
+}

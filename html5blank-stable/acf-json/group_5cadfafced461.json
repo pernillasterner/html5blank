@@ -1,0 +1,160 @@
+{
+    "key": "group_5cadfafced461",
+    "title": "Bli läraresida",
+    "fields": [
+        {
+            "key": "field_5ccaae0437695",
+            "label": "Toppinnehåll",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5ccaae1837696",
+            "label": "Bakgrundsbild",
+            "name": "bakgrundsbild-bli-larare",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url",
+            "preview_size": "thumbnail",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_5ccaae6e37698",
+            "label": "Formulär",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5ccaac3aec6c4",
+            "label": "Rubrik",
+            "name": "rubrik-formular-bli-larare",
+            "type": "text",
+            "instructions": "Rubrik för formulär",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Registrera dig som lärare",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5ccaac9eec6c5",
+            "label": "Text",
+            "name": "text-formular-bli-larare",
+            "type": "textarea",
+            "instructions": "Informationstext för formulär",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "För att registrera dig som lärare, fyll i dina uppgifter och klicka på ”Registrera”. Du kommer att få ett mejl med information till den e-postadress du angivit, titta i skräpposten om mejlet inte kommer inom en dag.",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": ""
+        },
+        {
+            "key": "field_5ccaad38ec6c7",
+            "label": "Rubrik registreringsbekräftelse",
+            "name": "rubrik-formular-bli-larare-bekraftelse",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Tack för din registrering!",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5ccaacf9ec6c6",
+            "label": "Text registreringsbekräftelse",
+            "name": "text-formular-bli-larare-bekraftelse",
+            "type": "textarea",
+            "instructions": "Informationstext för registreringsbekräftelse",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Var vänlig kolla din mejl för vidare instruktioner.",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page",
+                "operator": "==",
+                "value": "1190"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+        "the_content",
+        "featured_image",
+        "tags"
+    ],
+    "active": 1,
+    "description": "",
+    "modified": 1556878747
+}

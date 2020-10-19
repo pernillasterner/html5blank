@@ -1,0 +1,127 @@
+{
+    "key": "group_5a7079bcb5bbb",
+    "title": "Nyhetsinlägg",
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "template-news-listing.php"
+            }
+        ],
+        [
+            {
+                "param": "page",
+                "operator": "==",
+                "value": "2"
+            }
+        ],
+        [
+            {
+                "param": "page",
+                "operator": "==",
+                "value": "53"
+            }
+        ],
+        [
+            {
+                "param": "page",
+                "operator": "==",
+                "value": "47"
+            }
+        ],
+        [
+            {
+                "param": "page",
+                "operator": "==",
+                "value": "59"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "fields": [
+        {
+            "key": "field_5a7079fcab55c",
+            "label": "Nyheter",
+            "name": "nyheter",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "row",
+            "button_label": "Lägg till nyhetsinlägg",
+            "sub_fields": [
+                {
+                    "key": "field_5a707aff89841",
+                    "label": "Nyhet",
+                    "name": "nyhet",
+                    "type": "relationship",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "post_type": [
+                        "news",
+                        "page"
+                    ],
+                    "taxonomy": [],
+                    "filters": [
+                        "search"
+                    ],
+                    "elements": [
+                        "featured_image"
+                    ],
+                    "min": "",
+                    "max": 1,
+                    "return_format": "object"
+                },
+                {
+                    "key": "field_5a707b2c89842",
+                    "label": "Storlek",
+                    "name": "storlek",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "block-2x2": "2x2",
+                        "block-4x2": "4x2",
+                        "block-4x4": "4x4"
+                    },
+                    "default_value": [],
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "ui": 0,
+                    "ajax": 0,
+                    "return_format": "value",
+                    "placeholder": ""
+                }
+            ]
+        }
+    ],
+    "modified": 1557309389
+}

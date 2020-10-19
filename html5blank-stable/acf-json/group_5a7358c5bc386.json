@@ -1,0 +1,48 @@
+{
+    "key": "group_5a7358c5bc386",
+    "title": "Nyhetspresentation",
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "news"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "fields": [
+        {
+            "key": "field_5a7358c968827",
+            "label": "Titelpresentation för listsida",
+            "name": "title_presentation",
+            "type": "radio",
+            "instructions": "Välj om nyhetens titel ska ha transparent bakgrund med vit text eller vit bakgrund med mörk text.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "default": "Transparent",
+                "white": "Vit"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "default_value": "",
+            "layout": "vertical",
+            "return_format": "value"
+        }
+    ],
+    "modified": 1557309389
+}

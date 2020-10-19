@@ -1,0 +1,22 @@
+/* General */
+@import 'utils/mixins';
+@import 'base/variables';
+@import 'base/global';
+@import 'components/buttons';
+/* Layouts */
+@import 'layouts/about';
+@import 'layouts/custom_options';
+@import 'layouts/header';
+@import 'layouts/footer';
+@import 'layouts/front-page';
+@import 'layouts/for-volontarer';
+@import 'layouts/integritetspolicy';
+@import 'layouts/login-modal';
+@import 'layouts/news';
+@import 'layouts/partner-slider';
+@import 'layouts/register-form';
+@import 'layouts/confirm-modal';
+/* Pages */
+@import 'pages/template-partners';
+@import 'pages/template-boka-pass';
+@import 'pages/template-mina-sidor';

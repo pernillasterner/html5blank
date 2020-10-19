@@ -1,0 +1,66 @@
+#login-box{
+  text-align: center;
+  position: relative;
+  height: auto;
+  &:after, &:before{
+    display: table;
+    content: " ";
+  }
+  &:after{
+    clear: both;
+  }
+  #login-form{
+    &:after{
+      content: '';
+      clear: both;
+      display: block;
+    }
+  }
+  p{
+    font-size: 14px;
+  }
+  .lost-password {
+  	font-size: 14px;
+  	text-align: center;
+  	text-transform: uppercase;
+  }
+
+  #lostpassword-link, .back-to-login {
+  	font-size: 14px;
+  	color: #792064;
+  	text-decoration: underline;
+  }
+
+  #lp-form{
+    text-align: center;
+    input{
+      margin-bottom: 20px;
+    }
+    p{
+      margin-top:15px;
+
+    }
+  }
+
+  #lp-reset-form{
+    .username{
+      display: inline-block;
+    }
+    .reset-pw-info{
+      color: grey;
+    }
+  }
+}
+
+.login-form-btn{
+  background: #66bca1;
+  border: 0;
+  -webkit-appearance: none;
+  color: #fff;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 800;
+  padding: 10px 20px;
+  margin-top: 5px;
+  border-radius: 3px;
+}

@@ -1,0 +1,55 @@
+{
+    "key": "group_586e4d6fd3517",
+    "title": "För lärare",
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "template-larare.php"
+            }
+        ],
+        [
+            {
+                "param": "page",
+                "operator": "==",
+                "value": "59"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+        "the_content",
+        "featured_image"
+    ],
+    "active": 1,
+    "description": "",
+    "fields": [
+        {
+            "key": "field_586e4d81eb6d9",
+            "label": "För lärare",
+            "name": "for_larare",
+            "type": "clone",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "clone": [
+                "group_585a68ae40b14"
+            ],
+            "prefix_label": 0,
+            "prefix_name": 1,
+            "display": "seamless",
+            "layout": "block"
+        }
+    ],
+    "modified": 1557309387
+}

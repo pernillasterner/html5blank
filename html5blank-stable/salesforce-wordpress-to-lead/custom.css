@@ -1,0 +1,24 @@
+.salesforce_w2l_lead .sf_field_SamtyckeGDPRReg__c {
+    position: relative;
+    padding-top: 10px;
+}
+
+.salesforce_w2l_lead .sf_field_SamtyckeGDPRReg__c > input {
+    position: absolute;
+    top: 22px;
+    left: 5px;
+}
+
+.salesforce_w2l_lead .sf_field_SamtyckeGDPRReg__c > label,
+#volontarformular .salesforce_w2l_lead .sf_field_SamtyckeGDPRReg__c > label, #larareformular .salesforce_w2l_lead .sf_field_SamtyckeGDPRReg__c > label {
+    margin: 10px 0;
+    padding-left: 30px;
+}
+
+form#sf_form_salesforce_w2l_lead_9 .sf_field_SamtyckeGDPRReg__c input {
+    top: -2px;
+}
+
+form#sf_form_salesforce_w2l_lead_9 .sf_field_SamtyckeGDPRReg__c label {
+    padding-bottom: 10px;
+}

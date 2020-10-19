@@ -1,0 +1,34 @@
+.big-button {
+	font-weight: 600;
+	text-transform: uppercase;
+	display: inline-block;
+	padding: 16px 21px;
+	font-size: 21px;
+}
+.big-button-round {
+	border-radius: 100px;
+	font-weight: 600;
+	text-transform: uppercase;
+	display: inline-block;
+	padding: 16px 21px;
+	font-size: 21px;
+}
+.small-button {
+	font-weight: 600;
+	text-transform: uppercase;
+	display: inline-block;
+	padding: 10px 15px;
+	font-size: 18px;
+}
+.purple {
+	color: #fff;
+	background-color: #792064 !important;
+}
+.blue {
+	color: #fff;
+	background-color: #22a9f1 !important;
+}
+.green {
+	color: #fff;
+	background-color: #66bca1 !important;
+}

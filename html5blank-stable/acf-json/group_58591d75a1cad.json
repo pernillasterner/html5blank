@@ -1,0 +1,208 @@
+{
+    "key": "group_58591d75a1cad",
+    "title": "Topp block",
+    "location": [
+        [
+            {
+                "param": "page",
+                "operator": "==",
+                "value": "63"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "fields": [
+        {
+            "key": "field_58591dd25f2fd",
+            "label": "Block",
+            "name": "top-block",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "min": 0,
+            "max": 18,
+            "layout": "table",
+            "button_label": "Lägg till block",
+            "collapsed": "",
+            "sub_fields": [
+                {
+                    "key": "field_58591fd25f303",
+                    "label": "Storlek",
+                    "name": "storlek-top-blocks",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "multiple": 0,
+                    "allow_null": 0,
+                    "choices": {
+                        "block-2x2": "2x2",
+                        "block-4x2": "4x2",
+                        "block-4x4": "4x4"
+                    },
+                    "default_value": [],
+                    "ui": 0,
+                    "ajax": 0,
+                    "placeholder": "",
+                    "return_format": "value"
+                },
+                {
+                    "key": "field_58592553cde27",
+                    "label": "Ska det vara ett social media block?",
+                    "name": "social_media_block",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "multiple": 0,
+                    "allow_null": 1,
+                    "choices": {
+                        "hide": "Nej",
+                        "show": "Ja"
+                    },
+                    "default_value": [],
+                    "ui": 0,
+                    "ajax": 0,
+                    "placeholder": "",
+                    "return_format": "value"
+                },
+                {
+                    "key": "field_58591e635f302",
+                    "label": "Vilken social media?",
+                    "name": "social-media-top-blocks",
+                    "type": "select",
+                    "instructions": "Dessa får alltid 2x2 i storlek och använder ingen av de övriga fälten.",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "multiple": 0,
+                    "allow_null": 0,
+                    "choices": {
+                        "twitter": "Twitter",
+                        "facebook": "Facebook",
+                        "linkedin": "LinkedIn",
+                        "instagram": "Instagram"
+                    },
+                    "default_value": [],
+                    "ui": 0,
+                    "ajax": 0,
+                    "placeholder": "",
+                    "return_format": "value"
+                },
+                {
+                    "key": "field_58591de65f2fe",
+                    "label": "Bakgrund",
+                    "name": "bakgrund-top-blocks",
+                    "type": "image",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "url",
+                    "preview_size": "thumbnail",
+                    "library": "all",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": ""
+                },
+                {
+                    "key": "field_58591e085f2ff",
+                    "label": "Rubrik",
+                    "name": "rubrik-top-blocks",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "maxlength": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": ""
+                },
+                {
+                    "key": "field_58591e105f300",
+                    "label": "Text",
+                    "name": "text-top-blocks",
+                    "type": "textarea",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "new_lines": "wpautop",
+                    "maxlength": "",
+                    "placeholder": "",
+                    "rows": ""
+                },
+                {
+                    "key": "field_58591e1b5f301",
+                    "label": "Länk",
+                    "name": "lank-top-blocks",
+                    "type": "page_link",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "post_type": [
+                        "post",
+                        "page",
+                        "news"
+                    ],
+                    "taxonomy": [],
+                    "allow_null": 0,
+                    "allow_archives": 1,
+                    "multiple": 0
+                }
+            ]
+        }
+    ],
+    "modified": 1557309392
+}

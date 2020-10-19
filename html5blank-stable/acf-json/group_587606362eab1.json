@@ -1,0 +1,397 @@
+{
+    "key": "group_587606362eab1",
+    "title": "Dynamic content",
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "page"
+            },
+            {
+                "param": "page",
+                "operator": "!=",
+                "value": "45"
+            },
+            {
+                "param": "page",
+                "operator": "!=",
+                "value": "492"
+            },
+            {
+                "param": "page",
+                "operator": "!=",
+                "value": "53"
+            },
+            {
+                "param": "page",
+                "operator": "==",
+                "value": "47"
+            },
+            {
+                "param": "page",
+                "operator": "!=",
+                "value": "2"
+            },
+            {
+                "param": "page",
+                "operator": "!=",
+                "value": "63"
+            },
+            {
+                "param": "page",
+                "operator": "!=",
+                "value": "73"
+            },
+            {
+                "param": "page",
+                "operator": "!=",
+                "value": "75"
+            },
+            {
+                "param": "page",
+                "operator": "!=",
+                "value": "67"
+            },
+            {
+                "param": "page",
+                "operator": "!=",
+                "value": "65"
+            },
+            {
+                "param": "page",
+                "operator": "!=",
+                "value": "77"
+            },
+            {
+                "param": "page",
+                "operator": "!=",
+                "value": "89"
+            },
+            {
+                "param": "page",
+                "operator": "!=",
+                "value": "93"
+            },
+            {
+                "param": "page",
+                "operator": "!=",
+                "value": "91"
+            },
+            {
+                "param": "page",
+                "operator": "!=",
+                "value": "81"
+            },
+            {
+                "param": "page",
+                "operator": "!=",
+                "value": "61"
+            }
+        ],
+        [
+            {
+                "param": "post_category",
+                "operator": "==",
+                "value": "category:program"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "fields": [
+        {
+            "key": "field_587606d5e2b8a",
+            "label": "Innehållsfält",
+            "name": "innehallsfalt-dynamic",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "min": 0,
+            "max": 0,
+            "layout": "row",
+            "button_label": "Lägg till innehållsfält",
+            "collapsed": "",
+            "sub_fields": [
+                {
+                    "key": "field_587606f0e2b8b",
+                    "label": "Underrubrik",
+                    "name": "underrubrik-dynamic",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "100",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "maxlength": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": ""
+                },
+                {
+                    "key": "field_5876071de2b8c",
+                    "label": "Textfält",
+                    "name": "textfalt-dynamic",
+                    "type": "repeater",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "100",
+                        "class": "",
+                        "id": ""
+                    },
+                    "min": 0,
+                    "max": 0,
+                    "layout": "row",
+                    "button_label": "Lägg till textfält",
+                    "collapsed": "",
+                    "sub_fields": [
+                        {
+                            "key": "field_587607f2e2b8d",
+                            "label": "Kolumnfält",
+                            "name": "kolumner",
+                            "type": "flexible_content",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "100",
+                                "class": "",
+                                "id": ""
+                            },
+                            "min": "",
+                            "max": "",
+                            "button_label": "Lägg till kolumnfält",
+                            "layouts": [
+                                {
+                                    "key": "587607734ac31",
+                                    "name": "antal_kolumner",
+                                    "label": "Antal kolumner",
+                                    "display": "row",
+                                    "sub_fields": [
+                                        {
+                                            "key": "field_58760949e2b8e",
+                                            "label": "Antal kolumner",
+                                            "name": "antal_kolumner",
+                                            "type": "select",
+                                            "instructions": "",
+                                            "required": 0,
+                                            "conditional_logic": 0,
+                                            "wrapper": {
+                                                "width": "100",
+                                                "class": "",
+                                                "id": ""
+                                            },
+                                            "multiple": 0,
+                                            "allow_null": 0,
+                                            "choices": {
+                                                "1": "1",
+                                                "2": "2",
+                                                "3": "3",
+                                                "4": "4"
+                                            },
+                                            "default_value": [],
+                                            "ui": 0,
+                                            "ajax": 0,
+                                            "placeholder": "",
+                                            "return_format": "value"
+                                        },
+                                        {
+                                            "key": "field_58760a0fe2b93",
+                                            "label": "Kolumn 1",
+                                            "name": "kolumn_1",
+                                            "type": "wysiwyg",
+                                            "instructions": "",
+                                            "required": 0,
+                                            "conditional_logic": [
+                                                [
+                                                    {
+                                                        "field": "field_58760949e2b8e",
+                                                        "operator": "==",
+                                                        "value": "1"
+                                                    }
+                                                ],
+                                                [
+                                                    {
+                                                        "field": "field_58760949e2b8e",
+                                                        "operator": "==",
+                                                        "value": "2"
+                                                    }
+                                                ],
+                                                [
+                                                    {
+                                                        "field": "field_58760949e2b8e",
+                                                        "operator": "==",
+                                                        "value": "3"
+                                                    }
+                                                ],
+                                                [
+                                                    {
+                                                        "field": "field_58760949e2b8e",
+                                                        "operator": "==",
+                                                        "value": "4"
+                                                    }
+                                                ]
+                                            ],
+                                            "wrapper": {
+                                                "width": "100",
+                                                "class": "",
+                                                "id": ""
+                                            },
+                                            "tabs": "all",
+                                            "toolbar": "full",
+                                            "media_upload": 1,
+                                            "default_value": "",
+                                            "delay": 0
+                                        },
+                                        {
+                                            "key": "field_58760a82e2b97",
+                                            "label": "Kolumn 2",
+                                            "name": "kolumn_2",
+                                            "type": "wysiwyg",
+                                            "instructions": "",
+                                            "required": 0,
+                                            "conditional_logic": [
+                                                [
+                                                    {
+                                                        "field": "field_58760949e2b8e",
+                                                        "operator": "==",
+                                                        "value": "2"
+                                                    }
+                                                ],
+                                                [
+                                                    {
+                                                        "field": "field_58760949e2b8e",
+                                                        "operator": "==",
+                                                        "value": "3"
+                                                    }
+                                                ],
+                                                [
+                                                    {
+                                                        "field": "field_58760949e2b8e",
+                                                        "operator": "==",
+                                                        "value": "4"
+                                                    }
+                                                ]
+                                            ],
+                                            "wrapper": {
+                                                "width": "100",
+                                                "class": "",
+                                                "id": ""
+                                            },
+                                            "tabs": "all",
+                                            "toolbar": "full",
+                                            "media_upload": 1,
+                                            "default_value": "",
+                                            "delay": 0
+                                        },
+                                        {
+                                            "key": "field_58760aade2b9a",
+                                            "label": "Kolumn 3",
+                                            "name": "kolumn_3",
+                                            "type": "wysiwyg",
+                                            "instructions": "",
+                                            "required": 0,
+                                            "conditional_logic": [
+                                                [
+                                                    {
+                                                        "field": "field_58760949e2b8e",
+                                                        "operator": "==",
+                                                        "value": "3"
+                                                    }
+                                                ],
+                                                [
+                                                    {
+                                                        "field": "field_58760949e2b8e",
+                                                        "operator": "==",
+                                                        "value": "4"
+                                                    }
+                                                ]
+                                            ],
+                                            "wrapper": {
+                                                "width": "100",
+                                                "class": "",
+                                                "id": ""
+                                            },
+                                            "tabs": "all",
+                                            "toolbar": "full",
+                                            "media_upload": 1,
+                                            "default_value": "",
+                                            "delay": 0
+                                        },
+                                        {
+                                            "key": "field_58760acae2b9c",
+                                            "label": "Kolumn 4",
+                                            "name": "kolumn_4",
+                                            "type": "wysiwyg",
+                                            "instructions": "",
+                                            "required": 0,
+                                            "conditional_logic": [
+                                                [
+                                                    {
+                                                        "field": "field_58760949e2b8e",
+                                                        "operator": "==",
+                                                        "value": "4"
+                                                    }
+                                                ]
+                                            ],
+                                            "wrapper": {
+                                                "width": "100",
+                                                "class": "",
+                                                "id": ""
+                                            },
+                                            "tabs": "all",
+                                            "toolbar": "full",
+                                            "media_upload": 1,
+                                            "default_value": "",
+                                            "delay": 0
+                                        }
+                                    ],
+                                    "min": "",
+                                    "max": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "key": "field_5c50196317203",
+            "label": "",
+            "name": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        }
+    ],
+    "modified": 1557309386
+}

@@ -1,0 +1,105 @@
+{
+    "key": "group_585b95292663b",
+    "title": "Program",
+    "location": [
+        [
+            {
+                "param": "post_category",
+                "operator": "==",
+                "value": "category:program"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "left",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+        "excerpt",
+        "discussion",
+        "comments",
+        "revisions",
+        "author",
+        "format",
+        "tags",
+        "send-trackbacks"
+    ],
+    "active": 1,
+    "description": "",
+    "fields": [
+        {
+            "key": "field_5881ca5962075",
+            "label": "Presentationstext",
+            "name": "presentationstext",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "new_lines": "wpautop",
+            "maxlength": "",
+            "placeholder": "",
+            "rows": ""
+        },
+        {
+            "key": "field_585b954f9d4a4",
+            "label": "Riktar sig till",
+            "name": "riktar_sig_till",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_585b95999d4a5",
+            "label": "Samarbetspartners",
+            "name": "samarbetspartners",
+            "type": "checkbox",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "vertical",
+            "choices": {
+                "Moderna Museet": "Moderna Museet",
+                "Hallwylska museet": "Hallwylska museet",
+                "Astrid Lindgren Memorial Award (ALMA)": "Astrid Lindgren Memorial Award (ALMA)",
+                "Arvsfonden": "Arvsfonden",
+                "Södertälje stadsbibliotek": "Södertälje stadsbibliotek",
+                "Husby stadsbibliotek": "Husby stadsbibliotek",
+                "Hagsätra bibliotek": "Hagsätra bibliotek",
+                "Bonnier Carlsen": "Bonnier Carlsen",
+                "Kulturskolan\/Unga Berättar i Södertälje": "Kulturskolan\/Unga Berättar i Södertälje",
+                "Kulturskolan Spånga-Tensta\/Rinkeby-Kista": "Kulturskolan Spånga-Tensta\/Rinkeby-Kista",
+                "Arla": "Arla",
+                "Bonnier Fakta": "Bonnier Fakta"
+            },
+            "default_value": [],
+            "allow_custom": 1,
+            "save_custom": 1,
+            "toggle": 0,
+            "return_format": "value"
+        }
+    ],
+    "modified": 1557309390
+}

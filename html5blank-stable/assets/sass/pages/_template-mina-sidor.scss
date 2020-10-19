@@ -1,0 +1,443 @@
+/************ MINA SIDOR, MINA PASS OCH MINA UPPGIFTER ************/
+
+#mina-sidor-container {
+  //Stops horizontal scrolling
+  overflow: hidden;
+
+  .booking-header {
+    margin: 40px 0 10px 0;
+
+    h3 {
+      text-transform: uppercase;
+    }
+  }
+
+  .mina-sidor-wrapper {
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 50px;
+    margin-top: 50px;
+
+    > div:first-of-type {
+      margin: 0px 0;
+    }
+
+    h4 {
+      margin-bottom: 30px;
+    }
+
+    p {
+      font-size: 16px;
+      margin: 0 0 5px 0;
+    }
+    .contact-info {
+      margin-top: 20px;
+      font-style: italic;
+    }
+  }
+
+  .mina-bokningar {
+    border: 1px solid $lighter-grey;
+    width: 82%;
+    padding: 25px 0;
+  }
+
+  .mina-uppgifter {
+    width: 82%;
+    background: $light-grey;
+    padding: 50px 100px 50px 100px;
+
+    > div:nth-of-type(2) {
+      border-left: 2px solid $white;
+      padding-left: 30px;
+    }
+  }
+
+  .mina-uppgifter-label {
+    font-weight: bold;
+  }
+
+  /*============ MEDIA QUERY - MINA SIDOR, MINA PASS OCH MINA UPPGIFTER ============*/
+
+  @media screen and (max-width: 1366px) {
+
+    .mina-bokningar {
+      width: 100%;
+    }
+
+    .mina-uppgifter {
+      width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 1024px) {
+
+    .mina-uppgifter {
+      > div:nth-of-type(1) {
+        padding-bottom: 25px;
+      }
+
+      > div:nth-of-type(2) {
+        border-left: none;
+        border-top: 2px solid $white;
+        padding-left: 15px;
+        padding-top: 25px;
+      }
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+
+    .mina-bokningar {
+      width: 95%;
+    }
+
+    .mina-uppgifter {
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+
+    .mina-uppgifter {
+
+      > div {
+        padding-left: 30px;
+      }
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+
+    .mina-bokningar {
+      border: none;
+      width: 100%;
+
+      > div {
+        padding-left: 0px;
+        padding-right: 0px;
+      }
+    }
+
+    .mina-uppgifter {
+      padding-left: 8px;
+      padding-right: 8px;
+
+      > div {
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+
+      > div:nth-of-type(1) {
+        padding-bottom: 50px;
+      }
+
+      > div:nth-of-type(2) {
+        padding-top: 50px;
+      }
+
+      > div > div p:nth-of-type(2) {
+        padding-left: 0px;
+      }
+
+      > div > div p {
+        font-size: 16px;
+      }
+    }
+  }
+}
+
+/************ BYT LÖSENORD ************/
+
+#change-password {
+  margin: 40px 0;
+
+  input{
+    display: block;
+    width: 100%;
+    -webkit-appearance: none;
+    background: $white;
+    border: 1px solid $white;
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  input:required {
+    box-shadow: none !important;
+  }
+
+  button {
+    width: 100%;
+    background: $yellow;
+    border: none;
+    color: $white;
+    display: block;
+    padding: 10px;
+    text-align: center;
+  }
+
+  p {
+    font-size: 14px;
+    padding-left: 10px;
+  }
+}
+
+#change-password-messages {
+  margin-top: 10px;
+  list-style: none;
+  padding: 0;
+
+  li.change-pass-success {
+    color: $green;
+  }
+
+  li.error {
+    color: $red;
+  }
+}
+
+/*============ MEDIA QUERY - BYT LÖSENORD ============*/
+
+@media screen and (max-width: 768px) {
+
+  #change-password {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+/************ BOOKINGS ACCORDION TABLE ************/
+
+.bookings-accordion-table {
+
+  a {
+    color: $black;
+  }
+
+  .table_body_accordion {
+    border-style: none;
+  }
+
+  tbody tr:nth-of-type(1) td {
+    padding: 8px !important;
+  }
+
+  tr:not(.hidden-row) {
+    background-color: $light-grey;
+    border-style: none;
+  }
+
+  .hidden-row td {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  td {
+    border-top: none !important;
+    vertical-align: middle !important;
+  }
+
+  td:first-child {
+    width: 200px;
+  }
+
+  .padding-right-0 {
+    padding-right: 0px;
+  }
+
+  .start-date-table-title {
+    font-weight: bold;
+  }
+
+  .volunteer_shift_table_title {
+    background-color: $white !important;
+    text-align: left;
+
+    td {
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+  }
+
+  .toggle_booking_description_btn {
+    display: none;
+  }
+}
+
+.table-flex {
+  display: flex;
+
+  > a {
+    display: inline-flex;
+
+    > i {
+      top: 0;
+    }
+  }
+}
+
+a.toggle-accordions {
+  padding: 0 10px !important;
+  cursor: pointer !important;
+}
+
+/*============ MEDIA QUERY - BOOKINGS ACCORDION TABLE ============*/
+
+@media screen and(max-width: 768px) {
+
+  .bookings-accordion-table {
+
+    td:first-child {
+      width: 120px;
+    }
+
+    td {
+      font-size: 16px;
+    }
+  }
+}
+
+/************ BOOKINGS BUTTON ************/
+
+.booking-btn {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  height: 2.1em;
+  padding: 0 .6em;
+  cursor: pointer;
+  border: none;
+
+  &:active, &:focus {
+    -webkit-box-shadow: inset 0 2px 4px rgba(0,0,0,0.15), 0 1px 2px rgba(0,0,0,0.05);
+    box-shadow: inset 0 2px 4px rgba(0,0,0,0.15), 0 1px 2px rgba(0,0,0,0.05);
+  }
+}
+
+.unbook-btn {
+  background: $red;
+  font-size: 16px;
+  color: $light-grey;
+  float: right;
+
+  &:hover {
+    background-color: $dark-red;
+  }
+}
+
+/************ GLYPHICONS ************/
+
+.more-less {
+  position: relative;
+  height: 24px;
+  width: 24px;
+  border: 1px solid $medium-grey;
+  border-radius: 50%;
+
+  &::before {
+    position: absolute;
+    left: 1px;
+    margin-left: 50%;
+    margin-top: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.glyphicon-plus::before  {
+  font-size: 12px !important;
+  color: $medium-grey;
+}
+
+.glyphicon-chevron-down::before {
+  vertical-align: middle;
+  color: $blue;
+  margin-right: 5px;
+}
+
+/************ TOGGLE BOOKING DESCRIPTION ************/
+
+.toggle_booking_description_btn {
+  background: none!important;
+  color: $blue;
+  border: none;
+  padding: 0!important;
+  font: inherit;
+  font-weight: bold;
+  cursor: pointer;
+  padding-left: 30px !important;
+
+  &.description-padding-modal-btn {
+    padding-left: 30px!important;
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+  }
+}
+
+.accordion_content_details_teacher span {
+  font-weight: bold;
+}
+
+.content_details_short_text {
+  -webkit-transition: height 0.4s ease;
+  transition: height 0.4s ease;
+  max-height: 300px;
+  height: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 15px;
+  overflow: hidden;
+}
+
+.content_details_long_text {
+  -webkit-transition: max-height 1.5s ease;
+  transition: max-height 1.5s ease;
+  max-height: 5000px;
+  height: auto;
+  overflow-y: auto;
+}
+
+.content_details_blur {
+  background-image: -webkit-linear-gradient($grey 85%, $lighter-grey);
+  background-image: -moz-linear-gradient($grey 85%, $lighter-grey);
+  background-image: -ms-linear-gradient($grey 85%, $lighter-grey);
+  background-image: -o-linear-gradient($grey 85%, $lighter-grey);
+  background-image: linear-gradient($grey 85%, $lighter-grey);
+  -webkit-background-clip: text;
+  background-clip: text;
+  //-webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+/*============ MEDIA QUERY -  TOGGLE BOOKING DESCRIPTION ============*/
+
+@media screen and (max-width: 480px) {
+  .content_details_short_text {
+    padding: 15px;
+  }
+}
+
+/************ TOGGLE HISTORIC BOOKINGS ************/
+
+#toggle-historic-bookings {
+    padding-left: 20px !important;
+}
+
+
+/************ BROWSER SUPPORT ************/
+
+@supports (-ms-ime-align:auto) {
+  .content_details_blur {
+    color: $black;
+  }
+
+  .content_details_short_text {
+    color: $black;
+  }
+}
+
+_:-ms-fullscreen, :root .content_details_short_text {
+  color: $black;
+}
+
+_:-ms-fullscreen, :root .content_details_blur {
+  background-image: none;
+}
+

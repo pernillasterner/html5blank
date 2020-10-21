@@ -1,3 +1,4 @@
+<!-- PERNILLA START https://www.berattarministeriet.se/for-larare/registrera-dig-som-larare/ -->
 <?php $is_teacher_form = strpos(basename(get_page_template()), 'larare') !== false; ?>
 
 <form class="register-form" method="post">
@@ -102,3 +103,4 @@
     <span id="submit-error" class="text-danger" hidden><?php global $error_handler; echo $error_handler->get_error('registration_error'); ?></span>
   </div>
 </form>
+<!-- PERNILLA END -->

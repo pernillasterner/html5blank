@@ -1,3 +1,4 @@
+<!-- PERNILLA START -->
 <?php /* Template Name: Lärare */ get_header('start');
   $user = wp_get_current_user();
 ?>
@@ -109,3 +110,4 @@
 
 
 <?php get_footer('blue'); ?>
+<!-- PERNILLA END -->

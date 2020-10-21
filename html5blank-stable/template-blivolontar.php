@@ -1,3 +1,4 @@
+<!-- PERNILLA START -->
 <?php /* Template Name: Bli volontär */ get_header('start'); ?>
 <section id="top-container" class="blended-purple" style="background-image:url('<?php the_field('bakgrundsbild-bli-volontar'); ?>');">
   <div class="container">
@@ -192,3 +193,4 @@
 
 </div>
 <?php get_footer('purple'); ?>
+<!-- PERNILLA END -->

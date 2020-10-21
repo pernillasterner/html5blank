@@ -1,3 +1,4 @@
+<!-- PERNILLA START -->
 <?php /* Template Name: Volontär */ get_header('start');
 $user = wp_get_current_user();
 ?>
@@ -110,3 +111,4 @@ if( have_rows('lankfalt') && $user->roles[0] == 'volunteer'  ): ?>
 	</section>
 
 <?php get_footer('green'); ?>
+<!-- PERNILLA END -->

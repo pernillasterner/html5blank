@@ -1,3 +1,4 @@
+<!-- PERNILLA START -->
 <?php /* Template Name: Bli lärare */ get_header('start'); ?>
 
 <section id="lararegistrering" class="blended-blue" style="background-image:url('<?php the_field('bakgrundsbild-bli-larare'); ?>');">
@@ -15,3 +16,4 @@
 </section>
 
 <?php get_footer('purple'); ?>
+<!-- PERNILLA END -->

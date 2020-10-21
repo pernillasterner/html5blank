@@ -1,3 +1,4 @@
+<!-- PERNILLA START -->
 <?php /* Template Name: Mina sidor */ get_header('start'); ?>
 <?php
   // Get current user
@@ -497,3 +498,4 @@
     });
   })(jQuery, this);
 </script>
+<!-- PERNILLA START -->
